@@ -1,0 +1,22 @@
+services:
+  signbridge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: signbridge-ai
+
+    ports:
+      - "8000:10000"
+
+    environment:
+      PORT: "10000"
+      MODEL_PATH: "/app/artifacts/isl_mobilenet.onnx"
+      SIGN_LANGUAGE: "ISL"
+      CONFIDENCE_THRESHOLD: "0.60"
+      MAX_UPLOAD_MB: "10"
+
+    volumes:
+      - ./artifacts:/app/artifacts:ro
+
+    restart: unless-stopped

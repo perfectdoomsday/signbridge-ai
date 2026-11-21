@@ -1,0 +1,1 @@
+"""Image model evaluation commands."""

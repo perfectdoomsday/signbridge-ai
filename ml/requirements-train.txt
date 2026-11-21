@@ -1,0 +1,6 @@
+# Install after backend/requirements.txt. Choose the PyTorch wheel suitable for your machine if needed.
+torch==2.6.0
+torchvision==0.21.0
+scikit-learn==1.6.1
+matplotlib==3.10.1
+onnx==1.17.0

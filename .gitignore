@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+node_modules/
+frontend/dist/
+.env
+backend/.env
+frontend/.env.local
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+artifacts/*.pth
+!artifacts/.gitkeep
+*.log
