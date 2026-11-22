@@ -15,3 +15,4 @@ data/processed/**
 artifacts/*.pth
 !artifacts/.gitkeep
 *.log
+frontend/node_modules/
