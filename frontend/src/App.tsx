@@ -425,6 +425,27 @@ export default function App() {
           {health?.model_ready ? 'MODEL READY' : 'MODEL NOT LOADED'}
           <span className="divider" />
           {health?.language || 'ISL'}
+          <span className="divider" />
+          <span className="creator-credit">
+            Made by{' '}
+            <a
+              href="https://portfolio-three-delta-ji0g6hv3h6.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Hrs portfolio"
+            >
+              Hrs
+            </a>
+          </span>
+          <a
+            className="linkedin-link"
+            href="https://www.linkedin.com/in/harsh-kumar-mishra-7938491b4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit LinkedIn profile"
+          >
+            LinkedIn ↗
+          </a>
         </div>
       </nav>
 
