@@ -432,9 +432,9 @@ export default function App() {
               href="https://portfolio-three-delta-ji0g6hv3h6.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Visit Hrs portfolio"
+              aria-label="Visit Harsh portfolio"
             >
-              Hrs
+              Harsh
             </a>
           </span>
           <a
